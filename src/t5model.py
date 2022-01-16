@@ -1,13 +1,11 @@
 
 import requests
 import json
+import os
 
 API_URL = "https://api-inference.huggingface.co/models/mrm8488/t5-base-finetuned-question-generation-ap"
+API_TOKEN = os.getenv('API_TOKEN')
 
-with open('../.env') as f:
-    API_TOKEN = str(f.read()).strip('\n')
-    API_TOKEN = API_TOKEN.strip()
-    
 headers = {"Authorization": f"{API_TOKEN}"}
 
 def query(payload):
