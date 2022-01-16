@@ -21,3 +21,4 @@
    - 'API_TOKEN=$_API_TOKEN'
  images:
  - 'gcr.io/$PROJECT_ID/mcq-app:latest'
+ timeout: 30m
