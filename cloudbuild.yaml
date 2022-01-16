@@ -1,0 +1,5 @@
+
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/mcq-from-text/mcq-app:latest', '.' ]
+images: [gcr.io/mcq-from-text/mcq-app:latest]
