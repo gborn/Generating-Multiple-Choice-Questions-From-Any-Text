@@ -17,5 +17,7 @@
    - 'gcr.io/$PROJECT_ID/mcq-app:latest'
    - '--region'
    - 'us-central1'
+   - '--set-env-vars' 
+   - 'API_TOKEN=$_API_TOKEN'
  images:
  - 'gcr.io/$PROJECT_ID/mcq-app:latest'
