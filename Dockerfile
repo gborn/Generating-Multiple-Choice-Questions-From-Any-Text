@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y git
 
 #Copy Requirements.txt file into app directory
 COPY requirements.txt app/requirements.txt
-COPY env app/.env
 
 #install all requirements in requirements.txt
 RUN pip install -r app/requirements.txt
