@@ -1,2 +1,2 @@
 # Generating-Multiple-Choice-Questions-From-Any-Text
-A webapp to generate multiple choice questions (MCQs) from any Text using Google T5 model fined tuned on SQUAD dataset to generate questions, and BERT to generate distractors.
+A webapp to generate multiple choice questions (MCQs) from any Text. It uses  using Google T5 model fined tuned on SQUAD dataset to generate questions, and BERT to generate distractors, and answers are found using simple keyword extraction using Sentence Transformer.
